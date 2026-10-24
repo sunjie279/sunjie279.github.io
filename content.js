@@ -44,7 +44,7 @@ window.PAPERS = [
   },
   {
     "id": "sepseq",
-    "venue": "Findings of ACL 2026",
+    "venue": "ACL 2026",
     "topic": "reasoning",
     "title": "SepSeq: A Training-Free Framework for Long Numerical Sequence Processing in LLMs",
     "authors": "<strong>Jie Sun</strong>, Y. Liu, L. Han, Q. Deng, X. Shu, Y. Xiao, X. Lu, J. Zhou, P. Liu, L. Ma, J. Wu, X. Wang",
@@ -72,7 +72,7 @@ window.PAPERS = [
   },
   {
     "id": "lampval",
-    "venue": "Findings of EMNLP 2025",
+    "venue": "EMNLP 2025",
     "topic": "reasoning",
     "title": "LaMP-Val: Large Language Models Empower Personalized Valuation in Auction",
     "authors": "<strong>Jie Sun</strong>, T. Zhang, H. Jiang, K. Huang, X. Shu, Z. Zhu, L. Ma, X. Lu, J. Zhou, J. Wu, C. Luo, A. Zhang, J. Wu, X. Wang",
@@ -84,7 +84,7 @@ window.PAPERS = [
   },
   {
     "id": "gammapo",
-    "venue": "Findings of ACL 2025",
+    "venue": "ACL 2025",
     "topic": "alignment",
     "title": "Robust Preference Optimization via Dynamic Target Margins",
     "authors": "<strong>Jie Sun</strong>, J. Wu, J. Wu, Z. Zhu, X. Lu, J. Zhou, L. Ma, X. Wang",
@@ -179,7 +179,7 @@ window.PAPERS = [
   {
     "id": "longcli",
     "group": "coauthor",
-    "venue": "Findings of ACL 2026",
+    "venue": "ACL 2026",
     "topic": "agents",
     "title": "LongCLI-Bench: A Preliminary Benchmark and Study for Long-horizon Agentic Programming in Command-Line Interfaces",
     "authors": "Y. Feng, J. Sun, Z. Yang, J. Ai, C. Li, Z. Li, F. Zhang, K. He, R. Ma, J. Lin, <strong>Jie Sun</strong>, Y. Xiao, S. Zhou, W. Wu, Y. Liu, P. Liu, Y. Qiao, S. Zhang, K. Zhang",
@@ -277,7 +277,7 @@ window.TRANSLATIONS = {
   "news1": "📝 <a href=\"https://arxiv.org/abs/2609.23697\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Distill What You Trust</strong></a>：基于可靠性的多教师 on-policy distillation。",
   "news2": "🎉 <a href=\"https://arxiv.org/abs/2605.07711\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>SimCT</strong></a> 被 <strong>NeurIPS 2026</strong> 录用！",
   "news3": "💻 <a href=\"https://github.com/lds-ustc/EasyOPD\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>EasyOPD</strong></a>：统一、易用的 on-policy distillation 框架。",
-  "news4": "🎉 <a href=\"https://aclanthology.org/2026.findings-acl.272/\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>SepSeq</strong></a> 发表于 <strong>Findings of ACL 2026</strong>。",
+  "news4": "🎉 <a href=\"https://aclanthology.org/2026.findings-acl.272/\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>SepSeq</strong></a> 发表于 <strong>ACL 2026</strong>。",
   "papersTitle": "📝 学术论文",
   "paperDescription": "先列第一或共同第一作者论文，再列合作论文。点击主题筛选；<strong>本人姓名</strong>加粗，* 表示同等贡献。另见 <a href=\"https://scholar.google.com.hk/citations?user=tUrGVzUAAAAJ&hl=zh-CN\" target=\"_blank\" rel=\"noopener noreferrer\">Google Scholar</a>。",
   "filterAll": "全部",
