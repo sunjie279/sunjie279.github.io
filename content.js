@@ -285,7 +285,13 @@ window.PAPERS = [
     "summary": "Combining asynchronous rollouts and human guidance for research agent optimization.",
     "summaryZh": "结合异步 rollout 与人类指导，优化研究智能体。",
     "paper": "https://openreview.net/forum?id=JswgId3OjI",
-    "preprint": true
+    "preprint": true,
+    "image": "assets/papers/argo-thumb.webp",
+    "imageFull": "assets/papers/argo.png",
+    "imageAlt": "ARGO overview comparing behavior cloning, rejection fine-tuning, and asynchronous human-guided rollouts",
+    "imageWidth": 540,
+    "imageHeight": 307,
+    "arxiv": "https://arxiv.org/abs/2510.27630"
   },
   {
     "id": "uil",

@@ -9,8 +9,8 @@
     {id:'coauthor', en:'Co-authored papers', zh:'合作论文'}
   ];
   const resourceLabels = {
-    en:{paper:'Paper',code:'Code',project:'Project',dataset:'Data',model:'Model'},
-    zh:{paper:'论文',code:'代码',project:'项目',dataset:'数据',model:'模型'}
+    en:{paper:'Paper',arxiv:'arXiv',code:'Code',project:'Project',dataset:'Data',model:'Model'},
+    zh:{paper:'论文',arxiv:'arXiv',code:'代码',project:'项目',dataset:'数据',model:'模型'}
   };
   function renderPaper(p) {
     const links = Object.keys(resourceLabels.en).filter(key => p[key]).map(key => `<a href="${p[key]}" target="_blank" rel="noopener noreferrer">${resourceLabels[language][key]}</a>`).join('');
