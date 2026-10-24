@@ -1,685 +1,151 @@
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<!--<span style="font-size:14px;"><meta http-equiv="X-UA-Compatible" content="IE=edge" /></span>-->
-<!-- saved from url=(0031)http://home.ustc.edu.cn/~lishijun/ -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta content="IE=9.0000" http-equiv="X-UA-Compatible">
-<title>Jie Sun's Homepage</title>
-<meta name="description" content="Jie Sun, 孙杰, Undergraduate student in University of Science and Technology. Machine Learning.">
-<meta name="keywords" content="Jie Sun, 孙杰, USTC, machine learning">
-
-<link rel="stylesheet" type="text/css" href="./Homepage_files/xiangnan.css">
-<!-- <script type="text/javascript" async="" src="./files/ga.js"></script><script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-39532305-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script> -->
-
-<style>@-moz-keyframes nodeInserted{from{opacity:0.99;}to{opacity:1;}}@-webkit-keyframes nodeInserted{from{opacity:0.99;}to{opacity:1;}}@-o-keyframes nodeInserted{from{opacity:0.99;}to{opacity:1;}}@keyframes nodeInserted{from{opacity:0.99;}to{opacity:1;}}embed,object{animation-duration:.001s;-ms-animation-duration:.001s;-moz-animation-duration:.001s;-webkit-animation-duration:.001s;-o-animation-duration:.001s;animation-name:nodeInserted;-ms-animation-name:nodeInserted;-moz-animation-name:nodeInserted;-webkit-animation-name:nodeInserted;-o-animation-name:nodeInserted;}
-</style><style type="text/css">/* Copyright 2014-present Evernote Corporation. All rights reserved. */
-@keyframes caretBlink {
-    from { opacity: 1.0; }
-    to { opacity: 0.0; }
-}
-
-@keyframes rotateSpinner {
-    from {
-        transform:rotate(0deg);
-    }
-    to {
-        transform:rotate(360deg);
-    }
-}
-
-#text-tool-caret {
-    animation-name: caretBlink;  
-    animation-iteration-count: infinite;  
-    animation-timing-function: cubic-bezier(1.0,0,0,1.0);
-    animation-duration: 1s; 
-}
-
-#en-markup-loading-spinner {
-    position: absolute;
-    top: calc(50% - 16px);
-    left: calc(50% - 16px);
-    width: 32px;
-    height: 32px;
-}
-
-#en-markup-loading-spinner img {
-    position: relative;
-    top: 0px;
-    left: 0px;
-    animation-name: rotateSpinner;
-    animation-duration: 0.6s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
-</style><style type="text/css">/* Copyright 2014-present Evernote Corporation. All rights reserved. */
-.skitchToastBoxContainer {
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    top: 30px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    pointer-events: none;
-}
-
-.skitchToastBox {
-    width: 200px;
-    height: 16px;
-    padding: 12px;
-    background-color: rgba(47, 55, 61, 0.95);
-    border-radius: 4px;
-    color: white;
-    cursor: default;
-    font-size: 10pt;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.32);
-    font-family: 'Soleil', Helvetica, Arial, sans-serif;
-    border: 2px rgba(255, 255, 255, 0.38) solid;
-}
-
-.lang-zh-cn .skitchToastBox {
-    font-family: '΢���ź�', 'Microsoft YaHei', SimSun,
-        '&#x30E1;&#x30A4;&#x30EA;&#x30AA;', Meiryo, 'MS PGothic', 'Soleil',
-        Helvetica, Arial, sans-serif;
-}
-
-.lang-ja-jp .skitchToastBox {
-    font-family: '&#x30E1;&#x30A4;&#x30EA;&#x30AA;', Meiryo, 'MS PGothic',
-        '΢���ź�', 'Microsoft YaHei', SimSun, 'Soleil', Helvetica, Arial,
-        sans-serif;
-}
-
-.skitchToast {
-    padding-left: 20px;
-    padding-right: 20px;
-    display: inline-block;
-    height: 10px;
-    color: #f1f5f8;
-    text-align: center;
-}
-
-.skitchVisible {
-    /* Don't remove this class it's a hack used by the Evernote Clipper */
-}
-</style><style type="text/css">/* Copyright 2014-present Evernote Corporation. All rights reserved. */
-
-</style><style type="text/css">/* Copyright 2019-present Evernote Corporation. All rights reserved. */
-
-#en-markup-disabled {
-    position: fixed;
-    z-index: 9999;
-    width: 100%;
-    height: 100%;
-    top: 0px;
-    left: 0px;
-    cursor: default;
-    -webkit-user-select: none;
-}
-
-#en-markup-alert-container {
-    position: absolute;
-    z-index: 9999;
-    width: 450px;
-    left: calc(50% - 225px);
-    top: calc(50% - 85px);
-    background-color: white;
-    box-shadow: 0 2px 7px 1px rgba(0,0,0,0.35);
-    -webkit-user-select: none;
-}
-
-#en-markup-alert-container .cell-1 {
-    position: relative;
-    height: 110px;
-    width: 105px;
-    float: left;
-    text-align: center;
-    background-image: url(data:image/png;base64,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);
-    background-position: 65% 50%;
-    background-repeat: no-repeat;
-}
-
-#en-markup-alert-container .cell-2 {
-    position: relative;
-    float: left;
-    width: 345px;
-    margin-top: 29px;
-    margin-bottom: 20px;
-}
-
-#en-markup-alert-container .cell-2 .cell-2-title {
-    margin-bottom: 5px;
-    padding-right: 30px;
-    font-size: 12pt;
-    font-family: Tahoma, Arial;
-}
-
-#en-markup-alert-container .cell-2 .cell-2-message {
-    padding-right: 30px;
-    font-size: 9.5pt;
-    font-family: Tahoma, Arial;
-}
-
-#en-markup-alert-container .cell-3 {
-    position: relative;
-    width: 450px;
-    height: 60px;
-    float: left;
-    background-color: rgb(240,240,240);
-}
-
-#en-markup-alert-container .cell-3 button {
-    position: absolute;
-    top: 12px;
-    right: 15px;
-    width: 110px;
-    height: 36px;
-}
-
-#en-markup-alert-container .cell-3 button.alt-button {
-    position: absolute;
-    top: 12px;
-    right: 140px;
-    width: 110px;
-    height: 36px;
-}
-</style></head>
-
-
-<body data-new-gr-c-s-check-loaded="14.997.0" data-gr-ext-installed="">
-<div id="content">
-
-<div id="news">
-<h2>News</h2><br>
-<font size="3px">
-
-<b>27 May 2021</b><br>
-<span class="easylink">
-    I'm honored to receive the Excellent Student Scholarship (Silver) from USTC in 2020. (<a href="https://stuhome.ustc.edu.cn/_upload/article/files/6b/2b/dbc23ef84a9cb08875b4c5db862c/f85e5f52-b330-46c5-b898-11cf9bbb98c7.xls",="" target="_blank">Excellent Student Scholarship</a>).
-</span><br><br>
-<!-- 
-<b>14 February 2022</b><br>
-<span class="easylink">
-    I'm honored to receive the Illinois Distinguished Fellowship at UIUC in 2023.
-</span><br><br>
-
-<b>10 January 2023</b><br>
-<span class="easylink">
-    I serve as the PC member for the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (<a href="https://kdd.org/kdd2023/" ,="" target="_blank">KDD 2023</a>).
-</span><br><br>
-
-<b>17 October 2022</b><br>
-<span class="easylink">
-    I'm honored to receive the National Scholarship of China in 2022 (for top 2% students).
-</span><br><br>
-
-<b>14 September 2022</b><br>
-<span class="easylink">
-    I serve as the invited reviewer for ACM Transactions on the Web (<a href="https://dl.acm.org/journal/tweb" ,="" target="_blank">TWEB</a>).
-</span><br><br>
-
-<b>3 August 2022</b><br>
-<span class="easylink">
-One co-first-author full paper is accepted by <a href="https://www.cikm2022.org/" ,="" target="_blank">CIKM</a>, on trustworthy evaluation of recommender systems and a fully-observed dataset. Thanks for all co-authors!
-</span><br><br>
-
-<b>2 August 2022</b><br>
-<span class="easylink">
- One co-first-author short paper is accepted by <a href="https://www.cikm2022.org/" ,="" target="_blank">CIKM</a>, on unbiased sequential recommendation dataset. Thanks for all co-authors!
-</span><br><br>
-
-<b>22 February 2022</b><br>
-<span class="easylink">
-    We firstly collect and publish a fully-observed dataset, <a href="https://kuairec.com/" ,="" target="_blank"><i>KuaiRec</i></a>, with millions of user-item interactions in recommendation. This dataset can support innovative research on various tasks, including reinforcement learning, interactive recommendation, bias and debiasing, etc.
-</span><br><br>
-
-<b>20 January 2022</b><br>
-<span class="easylink">
-    I serve as the invited reviewer for ACM Transactions on Information Systems (<a href="https://dl.acm.org/journal/tois" ,="" target="_blank">TOIS</a>).
-</span><br><br>
-
-<b>25 November 2021</b><br>
-<span class="easylink">
-    I serve as the PC member for the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (<a href="https://kdd.org/kdd2022/" ,="" target="_blank">KDD 2022</a>).
-</span><br><br>
-
-<b>4 October 2021</b><br>
-<span class="easylink">
-    I serve as the PC member for the 15th International Conference on Web Search and Data Mining (<a href="https://www.wsdm-conference.org/2022/" ,="" target="_blank">WSDM 2022</a>).
-</span><br><br> -->
-
-
-</div>
-
-<div id="left">
-<table style="background-color:white;">
-<tbody><tr nosave="">
-<td valign="CENTER">
-<img src="./Homepage_files/20230129_051326515_iOS.jpg" height="250" align="left">
-</td>
-
-<td valign="CENTER" width="2%">
-</td>
-
-<td valign="CENTER" halign="LEFT">
-<font size="+0">
-<b><font size="+2">Jie Sun&nbsp;</font></b>
-<!--<p style="margin-left:0px;">-->
-<!--<img src="./Yang Zhang&#39;s Homepage_files/name.png" ,="" height="60">-->
-<!--</p><p style="margin-left:0px;">-->
-<b>Master's Student</b>
-</p><p style="margin-left:0px;">
-<a href="https://sds.ustc.edu.cn/main.htm" ,="" target="_blank">School of Data Science</a><br>
-<a href="http://en.ustc.edu.cn/" ,="" target="_blank">University of Science and Technology of China</a><br>
-</p><a style="margin-left:0px;">
-Email:  sunjie2019@mail.ustc.edu.cn<br>
-&bull; <a href="https://github.com/sunjie279">GitHub</a> &bull;
-  <!-- &bull; <a href="https://github.com/Eudaemonia-sj">GitHub</a> &bull; <a href="https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AJsN-F641B3BbGhKt5xceCtz6t0d6PQxRkynQFp7XTgjEnmWlJr5-BfuP2oN_hVmdF3a1nITWaqaKTyUIk7ckCvdOPEBsRk3CIo8TE6fYy92gRA4dey2feE&user=bY0ZhJsAAAAJ"> Google Scholar</a> &bull;
-  <a href="https://xiwenchao.github.io/shijunli.github.io/Homepage_files/CV_ShijunLi.pdf">CV</a> <br> -->
-</p></font><p><font size="+0">
-</font>
-</p></td>
-</tr>
-</tbody></table>
-
-<div class="box">
-    <!-- I am a 3rd-year Master's student at the <a href="http://data-science.ustc.edu.cn/" ,="" target="_blank">USTC Lab for Data Science</a>, supervised by <a href="https://hexiangnan.github.io/" ,="" target="_blank">Prof. Xiangnan He</a>. I received my bachelor's degree in the Department of Automation at USTC. Now, my research interest lies in reinforcement learning and interactive recommender system. Especially, I want to explore the recommender system with the ability to capture users' dynamic interest and maximize the long-term reward. I have three publications that appeared in the top conference CIKM (ACM International Conference on Information and Knowledge Management) and journal TOIS (ACM Transactions on Information Systems), as well as a preprint in submission to TOIS. Moreover, I have served as the PC member for conferences including KDD and WSDM, and invited reviewer for ACM TOIS, ACM TWEB, and WWW.  <br><br> -->
-
-    <!--<font color="red">-->
-    <!--Advertisements: <br>-->
-    <!--1. We released the source codes for our SIGIR paper: <br>-->
-    <!-- - <a href="https://github.com/zyang1580/SML">Link</a> <br>-->
-    <!-- - Weclome to check it! <br>-->
-    <!--</font>-->
-    <!--</div>-->
-
-    <div id="papers">
-        <h2>Publications</h2>
-        <br>
-        <!--<b> In the Year of 2020: </b> <br><br>-->
-
-        <!-- <table>
-            <tbody>
-                <tr>
-                    <td>
-                        <span class="title">Seamlessly Unifying Attributes and Items: Conversational Recommendation for Cold-Start Users</span>
-                        <br><b>Shijun Li</b>, Wenqiang Lei, Qingyun Wu, Xiangnan He, Peng Jiang &amp; Tat-Seng Chua
-                        <br>ACM Transactions on Information Systems (TOIS 2021) &nbsp;&nbsp; <a href="https://arxiv.org/pdf/2005.12979.pdf" target="_blank">pdf&nbsp;&nbsp;<a href="https://github.com/xiwenchao/ConTS-TOIS-2021" target="_blank">Codes</a>
-                    </td>
-                </tr>
-            </tbody>
-        </table> -->
-
-        <!-- <table>
-            <tbody>
-                <tr>
-                    <td>
-                        <span class="title">KuaiRec: A Fully-observed Dataset and Insights for Evaluating Recommender System</span>
-                        <br>Chongming Gao*, <b>Shijun Li*</b>, Wenqiang Lei, Jiawei Chen, Biao Li, Peng Jiang,  Xiangnan He, Jiaxin Mao &amp; Tat-Seng Chua <font color="red">(* Equal contribution)</font>
-                        <br>CIKM 2022 (Full, Accept Rate: 23.32%) &nbsp;&nbsp; <a href="https://arxiv.org/pdf/2202.10842.pdf" target="_blank">pdf&nbsp;&nbsp;<a href="https://github.com/xiwenchao/fully_observed_demo" target="_blank">Codes</a>&nbsp;<a href="https://kuairec.com/" target="_blank">Data</a>&nbsp;&nbsp;<a href="https://youtu.be/j238TANNBF0" target="_blank">Presentation</a>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-
-        <table>
-            <tbody>
-                <tr>
-                    <td>
-                        <span class="title">KuaiRand: An Unbiased Sequential Recommendation Dataset with Randomly Exposed Videos</span>
-                        <br>Chongming Gao*, <b>Shijun Li*</b>, Yuan Zhang*, Jiawei Chen, Biao Li, Wenqiang Lei, Peng Jiang &amp;   Xiangnan He <font color="red"><br/>(* Equal contribution)</font>
-                        <br>CIKM 2022 (Short, Accept Rate: 29.04%) &nbsp;&nbsp; <a href="https://arxiv.org/pdf/2208.08696.pdf" target="_blank">pdf&nbsp;&nbsp;<a href="https://kuairand.com/" target="_blank">Data</a>&nbsp;&nbsp;<a href="https://drive.google.com/file/d/1hxpU5k4NwG1DOx4cNHYiEAcmbY9qpT4P/view?usp=sharing" target="_blank">Poster</a>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-
-        <table>
-            <tbody>
-                <tr>
-                    <td>
-                        <span class="title">CIRS: Bursting Filter Bubbles by Counterfactual Interactive Recommender System</span>
-                        <br>Chongming Gao, Wenqiang Lei, Jiawei Chen, Shiqi Wang, Xiangnan He, <b>Shijun Li</b>, Biao Li, Yuan Zhang &amp; Peng Jiang
-                        <br>arXiv preprint (submitted to TOIS, major revision) &nbsp;&nbsp; <a href="https://arxiv.org/pdf/2204.01266.pdf" target="_blank">pdf&nbsp;&nbsp;<a href="https://github.com/chongminggao/CIRS-codes" target="_blank">Codes</a>&nbsp
-                    </td>
-                </tr>
-            </tbody>
-        </table> -->
-
-
-        <!--
-        <h2 style="CLEAR: both;">Invited Talks</h2>
-        <table><tbody><tr><td>
-          <span class="title">Neural Recommender Models: Moving from Shallow Learning to Deep Learning</span> &nbsp;&nbsp;
-          <br> - Tianjin University, China, Dec 29, 2017 (invited by Prof. Liu An-An)
-          <br> - University of Science and Technology of China, Feb 28, 2018 (invited by Prof. Zhang Yongdong)
-            <br> - Nanyang Technological University, Singapore, March 28, 2018
-          <br> - Alibaba Incorporation, China, July 1, 2018 (invited by Dr. Zhou Jun)
-          <br> - DSO National Defense Laboratories, Singapore, Aug 16, 2018 (invited by Huang Yipeng)
-        </td></tr></tbody></table>
-
-        <table><tbody><tr><td>
-          <span class="title">Neural Factorization Machines for Sparse Predictive Analytics </span> &nbsp;&nbsp;
-          <br> - LinkSure Company, Singapore, June 22, 2017 (invited by Dr. Chang Kuiyu)
-          <br> - SIGIR 2017, Tokyo, Japan, August 5, 2017
-        </td></tr></tbody></table>
-
-        <table><tbody><tr><td>
-            <span class="title">Neural Collaborative Filtering </span> &nbsp;&nbsp;
-          <br> - Shandong University, May 20, 2017 (invited by Prof. Nie Liqiang)
-          <br> - WWW 2017, Perth, Australia, April 5, 2017
-        </td></tr></tbody></table>
-
-        <table><tbody><tr><td>
-            <span class="title">Recent Advance on Recommendation Methods for Implicit Feedback </span> &nbsp;&nbsp; <br>
-          - Tsinghua University, April 19, 2017 (invited by Prof. Cui Peng) <br>
-          - Renmin University, April 18, 2017 (invited by Prof. Dou Zhicheng) <br>
-          - Chinese Academy of Sciences, April 12, 2017 (invited by Prof. Guo Jiafeng) <br>
-        </td></tr></tbody></table>
-        -->
-        <!--
-        <table><tbody><tr><td>
-            <span class="title">A Generic Coordinate Descent Framework for Learning from Implicit Feedback
-         </span> &nbsp;&nbsp; <br> - WWW 2017, Perth, Australia, April 7, 2017
-        </td></tr></tbody></table>
-
-
-        <table><tbody><tr><td>
-            <span class="title">Collaborative Filtering for Implicit Feedback </span> &nbsp;&nbsp; <br>
-           - Tsinghua University, December 21, 2016 (invited by Prof. Zhang Min) <br>
-          - Hefei University of Technology, December 16, 2016 (invited by Prof. Hong Richang) <br> - Zhejiang University, December 15, 2016 (invited by Prof. Xiao Jun)
-        </td></tr></tbody></table>
-        -->
-        <!--
-            Guest Editor of <span class="title">MMSJ Special Issue on <a href="http://static.springer.com/sgw/documents/1633917/application/pdf/CfP_MM+Recommendation+and+Multi-modal+Data+Analysis.pdf">Multimedia Recommendation and Multi-modal Data Analysis</a> </span> <br>
-          Program Committee Member of <span class="title">SIGIR (2016-2020) </span> <br>
-          Program Committee Member of <span class="title">WWW (2016-2020) </span> <br>
-          Program Committee Member of <span class="title">WSDM (2018-2020) </span> <br>
-          Program Committee Member of <span class="title">KDD (2018-2020) </span> <br>
-          Program Committee Member of <span class="title">ACM MM (2017-2019) </span> <br>
-          Program Committee Member of <span class="title">CIKM (2017-2020) </span> <br>
-          Program Committee Member of <span class="title">ICTIR (2020) </span> <br>
-            Program Committee Member of <span class="title">ACL (2019, 2018) </span> <br>
-            Program Committee Member of <span class="title">AAAI (2018-2020) </span> <br>
-            Program Committee Member of <span class="title">IJCAI (2018-2020) </span> <br>
-          Program Committee Member of <span class="title">ICME (2019) </span> <br>
-            Program Committee Member of <span class="title">PAKDD (2018) </span> <br>
-            Program Committee Member of <span class="title">AIRS (2018) </span> <br>
-          Program Committee Member of <span class="title">EMNLP (2020,2018,2016) </span> <br>
-          Invited Reviewer for <span class="title">IEEE Transactions on Knowledge and Data Engineering (TKDE) </span> <br>
-            Invited Reviewer for <span class="title">ACM Transactions on Information Systems (TOIS) </span> <br>
-            Invited Reviewer for <span class="title">IEEE Transactions on Multimedia (TMM) </span> <br>
-          Invited Reviewer for <span class="title">ACM Transactions on Knowledge Discovery from Data (TKDD) </span> <br>
-          Invited Reviewer for <span class="title">ACM Transactions on Intelligent Systems and Technology (TIST) </span> <br>
-          Invited Reviewer for <span class="title">Journal of AI Research (JAIR) </span> <br>
-            Invited Reviewer for <span class="title">IEEE Transactions on Circuits and Systems for Video Technology (TCSVT) </span> <br>
-            Invited Reviewer for <span class="title">IEEE Transactions on Systems, Man and Cybernetics (TSMC) </span> <br>
-          Invited Reviewer for <span class="title">IEEE Transactions on Neural Networks and Learning Systems (TNNLS) </span> <br>
-          Invited Reviewer for <span class="title">IEEE Transactions on Cybernetics (TCYB) </span> <br>
-          Invited Reviewer for <span class="title">IEEE Intelligent Systems </span> <br>
-          Invited Reviewer for <span class="title">KSII Transactions on Internet and Information Systems (TIIS) </span> <br>
-          Invited Reviewer for <span class="title">Information Sciences </span> <br>
-          Invited Reviewer for <span class="title">Knowledge-based Systems </span> <br>
-          Invited Reviewer for <span class="title">Neural Networks</span> <br>
-          Invited Reviewer for <span class="title">Journal of the Association for Information Science and Technology (JASIST) </span> <br>
-          Invited Reviewer for <span class="title">Journal of Computational Science (JOCS) </span> <br>
-          Invited Reviewer for <span class="title">Neurocomputing</span> <br>
-          Invited Reviewer for <span class="title">Frontiers of Computer Science </span> <br>
-          Invited Reviewer for <span class="title">World Wide Web Journal (WWWJ) </span> <br>
-          Invited Reviewer for <span class="title">Multimedia Systems Journal (MMSJ) </span> <br>
-          Invited Reviewer for <span class="title">Information Processing and Management (IPM) </span> <br>
-          Invited Reviewer for <span class="title">Multimedia Tools and Applications (MTA) </span> <br>
-          Invited Reviewer for <span class="title">Data Science and Engineering </span> <br>
-          Invited Reviewer for <span class="title">Journal of Information Science </span> <br>
-          External Reviewer of <span class="title">WSDM 2017, SIGIR 2015, NAACL 2015 </span> <br>
-          External Reviewer of <span class="title">Information Retrieval Journal (IRJ). </span> <br>
-        </td></tr></tbody></table> -->
-
-        <h2 style="CLEAR: both">Experiences</h2>
-
-        <!-- <table>
-            <tbody>
-                <tr>
-                    <td>
-                        <span class="title">Research Intern</span>, Kuaishou Inc., Beijing, China, March 2020 - Present   <br>
-                        <span class="title">Advisor:</span> Prof. Xiangnan He (USTC), Prof. Wenqiang Lei (SCU), Dr. Peng Jiang (Kuaishou Inc.)
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-
-        <table>
-            <tbody>
-                <tr>
-                    <td>
-                        <span class="title">Summer Research Intern</span>, University of Florida, Gainesville, Florida, July 2019 - September 2019   <br>
-                        <span class="title">Advisor:</span> Prof. Joel B. Harley (UF)
-                    </td>
-                </tr>
-            </tbody>
-        </table> -->
-
-
-        <h2 style="CLEAR: both">Research</h2>
-        <table>
-            <tbody>
-                <tr>
-                    <td>
-                        <span class="title">
-                            ACL'2025: Robust preference optimization via dynamic target margins <br>
-                            Advisor: Prof. Xiang Wang (USTC)
-                        </span>
-                        <br> - GitHub: https://github.com/sunjie279/gammaPO
-                        <br> - Arxiv: https://arxiv.org/pdf/2506.03690
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        <table>
-            <tbody>
-                <tr>
-                    <td>
-                        <span class="title">
-                            EMNLP'2025: LaMP-Val: Large Language Models Empower Personalized Valuation in Auction <br>
-                            Advisor: Prof. Xiang Wang (USTC), Prof. Jiancan Wu (USTC)
-                        </span>
-                        <br> - GitHub: https://github.com/sunjie279/LaMP-Val
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-
-        <h2 style="CLEAR: both;">Education</h2>
-        <table>
-            <tbody>
-                <tr>
-                    <td>
-                        <span class="title">Shanghai Innovation Institude (SII)</span> <br>
-                        PhD student in Intelligence Science and Technology, School of Artificial Intelligence and Data Science <br>
-                        Sep 2025 - Jul 2028 (expected), Shanghai, China <br>
-                        Advisor: <a href="https://xiangwang1223.github.io/" target="_blank">Prof. Xiang Wang and Prof. Pengfei Liu</a>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        <table>
-            <tbody>
-                <tr>
-                    <td>
-                        <span class="title">University of Sicence and Technology of China (USTC)</span> <br>
-                        Master student in Intelligence Science and Technology, School of Artificial Intelligence and Data Science <br>
-                        Sep 2023 - Jul 2026, Hefei and Shanghai, China <br>
-                        Advisor: <a href="https://xiangwang1223.github.io/" target="_blank">Prof. Xiang Wang</a>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        <table>
-            <tbody>
-                <tr>
-                    <td>
-                        <span class="title">University of Sicence and Technology of China (USTC)</span> <br>
-                        Bachelor in Computer Science, School of Computer Science and Technology <br>
-                        Sep 2019 - Jul 2023, Hefei, China <br>
-                        Advisor: <a href="https://xiangwang1223.github.io/" target="_blank">Prof. Xiang Wang</a>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        <table>
-            <tbody>
-                <tr>
-                    <td>
-                        <span class="title">Zhejiang Fuyang High School</span> <br>
-                        Sep 2016 - Jun 2019, Hangzhou, China <br>
-                        <!--  Advisor: Prof. Cong Shen</a>-->
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-
-
-        <h2 style="CLEAR: both;">Services & Awards & Patents</h2>
-        <table>
-            <tbody>
-                <tr>
-                    <td>
-                        <span class="title">Second place in the second University of Science and Technology of China Quantitative Trading Research Competition. &nbsp;2023 </span> &nbsp;&nbsp;
-                        <br> - University of Science and Technology of China, China
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        <table>
-            <tbody>
-                <tr>
-                    <td>
-                        <span class="title">Special Scholarship, &nbsp; 2022 </span> &nbsp;&nbsp;
-                        <br> - University of Science and Technology of China, China
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        <table>
-            <tbody>
-                <tr>
-                    <td>
-                        <span class="title">Outstanding Student Scholarship, &nbsp; 2020 & 2021 </span> &nbsp;&nbsp;
-                        <br> - University of Science and Technology of China, China
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        <table>
-            <tbody>
-                <tr>
-                    <td>
-                        <span class="title">National Physics Contest for Middle School Students (First Class Award), &nbsp; 2018 </span> &nbsp;&nbsp;
-                        <br> - Chinese Physical Society, China
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        <table>
-            <tbody>
-                <tr>
-                    <td>
-                        <span class="title">Zhejiang Mathematics Contest for Middle School Students (First Class Award), &nbsp; 2018 </span> &nbsp;&nbsp;
-                        <br> - Zhejiang Mathematical Society, China
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        <table>
-            <tbody>
-                <tr>
-                    <td>
-                        <span class="title"> The 14th Pan-Pearl River Delta and Chinese Elite Schools Physics Olympiad (First Class Award), &nbsp; 2018 </span> &nbsp;&nbsp;
-                        <br> - Hong Kong Physics Olympiad, China
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-
-
-        <!--<table>
-          <tbody>
-          <tr>
-            <td><span class="title"><a href="https://www.accenture.com" target="_blank">Accenture Inc.</a></span> <br>
-            IT Consult Intern, Media Markt project. <br>
-            Shanghai, China &nbsp;&nbsp; Jan. 2011 - Apr. 2011</td></tr></tbody></table>
-        -->
-        <!-- =======================================================================!-->
-        <!-- <h2 style="CLEAR: both;">Datasets</h2>
-        <table>
-          <tbody>
-          <tr>
-            <td><span class="title"><a href="http://wing.comp.nus.edu.sg/downloads/multiview_clustering/" target="_blank">Multi-View Clustering with User Comments</a></span> <br>
-              The first public user comments dataset for multi-view clustering. The groundtruth labels are provided as the categories of items. The textual comments have been pre-processed, include stemming, removing stopwords .etc.<br>
-              <a href="http://dl.acm.org/citation.cfm?id=2567975">WWW 2014 paper</a>.</td></tr></tbody></table> -->
-        <!--
-        <h2 style="CLEAR: both;">Teaching Assistants</h2>
-        <table>
-          <tbody>
-          <tr>
-            <td><span class="title"><a href="http://www1.i2r.a-star.edu.sg/~jspan/courses/nus/CS5228.htm" target="_blank">CS5228 Knowledge Discovery and Data Mining</a></span> <br>
-            2014/2015 Semester 1
-             </td></tr></tbody></table>
-        <table>
-          <tbody>
-          <tr>
-            <td><span class="title"><a href="http://www.comp.nus.edu.sg/~kanmy/courses/3245_2014/" target="_blank">CS3245 Information Retrieval</a></span> <br>
-            2013/2014 Semester 2
-             </td></tr></tbody></table>
-        <table>
-          <tbody>
-          <tr>
-            <td><span class="title"><a href="http://www.comp.nus.edu.sg/~xiangnan/cs1020_tutorial2.htm" target="_blank">CS3245 CS1020 Data Structure and Algorithms</a></span> <br>
-            2013/2014 Semester 1
-             </td></tr></tbody></table>
-        -->
-
-        <h2 style="CLEAR: both;">Useful Links</h2>
-        <table>
-            <tbody>
-                <tr>
-                    <td>
-                        <span class=>
-                            <!--  <tr><td> <span class="title"><a href="http://staff.ustc.edu.cn/~hexn/SoC%20Conference%20Ranking.htm" target="_blank">NUS CS Conference Rankings</a></span> </td></tr>-->
-                <tr><td> <span class="title"><a href="http://staff.ustc.edu.cn/~hexn" target="_blank">Prof. Xiangnan He</a></span> </td></tr>
-                <tr><td> <span class="title"><a href="https://xiangwang1223.github.io/" target="_blank">Prof. Xiang Wang</a></span> </td></tr> 
-                <!--  <tr><td> <span class="title"><a href="http://staff.ustc.edu.cn/~hexn/SoC%20Journal%20Ranking.htm" target="_blank">NUS CS Journal Ranking</a></span> </td></tr>  -->
-                <!--  <tr><td> <span class="title"><a href="http://www.comp.nus.edu.sg/undergraduates/useful_course_schedule.html" target="_blank">NUS CS Courses</a></span> </td></tr>    -->
-                <!--  <tr><td> <span class="title"><a href="https://docs.google.com/document/d/1IXF3h0RU5zz4ukmTrVKVotPQypChscNGf5k6E25HGvA" target="_blank">Machine Learning Reading List</a></span> </td></tr>    -->
-                <!--  <tr><td> <span class="title"><a href="https://github.com/robertsdionne/neural-network-papers" target="_blank">Deep Learning Reading List</a></span> </td></tr>    -->
-            </tbody>
-        </table>
-
-        <br />
-        <!--<div id="clustrmaps-widget"></div> </a><a href="https://clustrmaps.com/site/1ar45" title="Visit tracker"><img src="./Xiangnan He&#39;s Homepage_files/map_v2.png"></a>-->
-        <!--<IMG SRC="/cgi-bin/Count.cgi?df=zy2015.dat&dd=cdr&md=7" />-->
-
-        
-
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Jie Sun — Ph.D. candidate at USTC and Shanghai Innovation Institute. Research on on-policy distillation, preference optimization, and language model agents.">
+  <link rel="canonical" href="https://sunjie279.github.io/">
+  <meta property="og:url" content="https://sunjie279.github.io/">
+  <meta property="og:title" content="Jie Sun · Academic Homepage">
+  <meta property="og:description" content="Learning, reasoning, and agency. Research in language model post-training at USTC and SII.">
+  <title>Jie Sun · Academic Homepage</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="content.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <nav aria-label="Main navigation" id="navigation">
+        <a href="#about" class="active" data-i18n="navAbout">Homepage</a>
+        <a href="#news" data-i18n="navNews">News</a>
+        <a href="#publications" data-i18n="navPapers">Publications</a>
+        <a href="#education" data-i18n="navEducation">Education</a>
+        <a href="#experience" data-i18n="navExperience">Experience</a>
+        <a href="#honors" data-i18n="navHonors">Awards</a>
+      </nav>
+      <div class="header-actions">
+        <button id="language-toggle" class="language-toggle" aria-label="Switch to Chinese">中 / <b>EN</b></button>
+        <button id="menu-toggle" aria-label="Open navigation" aria-controls="navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+      </div>
     </div>
-</div>
-
-</br>
-<div id="clustrmaps-widget"></div> <a href="https://clustrmaps.com/site/1brkt" title="Visit tracker"><img src="///clustrmaps.com/map_v2.png?cl=ffffff&w=a&t=tt&d=JeBmcNOTuR55sBY144D89se9IuivFpu_dOBZ0FZguXA"></a>
-
-<p> Webpage template borrows from prof. <a href="http://staff.ustc.edu.cn/~hexn">Xiangnan He</a>.</p>
-
-</div>
-</div>
-
-
-</div></body></html>
+  </header>
+  <div class="page-layout">
+    <aside class="profile" aria-label="Profile">
+      <div class="avatar-wrap"><img class="avatar" src="assets/github-avatar.png" alt="Jie Sun's Little Prince profile illustration" width="168" height="168"></div>
+      <div class="profile-heading"><h1>Jie Sun</h1></div>
+      <p class="profile-role" data-i18n="role">Ph.D. Candidate @ USTC &amp; SII</p>
+      <p class="location"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 11-8 11S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg><span data-i18n="location">Shanghai, China</span></p>
+      <ul class="social-links">
+        <li><a href="mailto:sunjie2019@mail.ustc.edu.cn"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></svg><span>Email</span></a></li>
+        <li><a href="https://scholar.google.com.hk/citations?user=tUrGVzUAAAAJ&hl=en" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m2 9 10-6 10 6-10 6Zm4 3v6c4 3 8 3 12 0v-6M22 9v8"/></svg><span>Google Scholar</span></a></li>
+        <li><a href="https://github.com/sunjie279" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 19c-4 1-4-2-6-2m12 5v-4c0-1-.3-2-1-2 4-.4 6-2 6-6a5 5 0 0 0-1-3c.3-1 .2-3-.2-4-2 0-3 1-4 1a14 14 0 0 0-6 0C8 3 7 2 5 3c-.4 1-.5 3-.2 4a5 5 0 0 0-1 3c0 4 2 5.6 6 6-.7.4-1 1-1 2v4"/></svg><span>GitHub</span></a></li>
+        <li><a href="https://www.xiaohongshu.com/user/profile/5e2562ed0000000001005dab" target="_blank" rel="noopener noreferrer"><span class="rednote-icon" aria-hidden="true">小红书</span><span data-i18n="rednote">RedNote</span></a></li>
+      </ul>
+    </aside>
+    <main id="main">
+      <section id="about" class="about section">
+        <h2 class="sr-only" data-i18n="aboutHeading">About me</h2>
+        <p class="intro-bio" data-i18n="bio">Ph.D. Candidate @ <a href="https://en.ustc.edu.cn/" target="_blank" rel="noopener noreferrer">University of Science and Technology of China</a> · Advisor: <strong><a href="https://xiangwang1223.github.io/" target="_blank" rel="noopener noreferrer">Prof. Xiang Wang</a></strong> <span class="advisor-scholar">[<a href="https://scholar.google.com/citations?user=HdhaQB0AAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</span></p>
+        <div class="profile-badges" aria-label="Profile links">
+          <a href="https://scholar.google.com.hk/citations?user=tUrGVzUAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer"><span>🎓 Scholar</span><span>Publications</span></a>
+          <a href="https://github.com/sunjie279" target="_blank" rel="noopener noreferrer"><span>◉ GitHub</span><span>sunjie279</span></a>
+          <a href="https://www.xiaohongshu.com/user/profile/5e2562ed0000000001005dab" target="_blank" rel="noopener noreferrer"><span class="rednote-badge">小红书 RedNote</span><span>Jason</span></a>
+        </div>
+        <p class="research-statement" data-i18n="statement">Hi! I study how language models can learn more efficiently, reason more reliably, and become better agents.</p>
+        <div class="research-grid">
+          <article class="research-card">
+            <h3><span class="topic-number">1</span><span data-i18n="topic1">Distillation</span></h3>
+            <p data-i18n="topic1Desc">Transferring capabilities across models, tokenizers, and teachers.</p>
+            <ul>
+              <li><a href="https://arxiv.org/abs/2605.07711" target="_blank" rel="noopener noreferrer">SimCT</a> <span class="venue-note">NeurIPS’26</span><br><span data-i18n="cardSimct">Recovering supervision lost to tokenizer mismatch.</span></li>
+              <li><a href="https://arxiv.org/abs/2609.23697" target="_blank" rel="noopener noreferrer">TrustMOPD</a> <span class="venue-note">Preprint’26</span><br><span data-i18n="cardTrust">Learning which teacher to trust at each token.</span></li>
+            </ul>
+            <a class="card-cta" href="#publications" data-topic-link="distillation" data-i18n="explore">Papers →</a>
+          </article>
+          <article class="research-card">
+            <h3><span class="topic-number">2</span><span data-i18n="topic2">Alignment</span></h3>
+            <p data-i18n="topic2Desc">Learning robust preferences from imperfect feedback.</p>
+            <ul>
+              <li><a href="https://aclanthology.org/2025.findings-acl.282/" target="_blank" rel="noopener noreferrer">γ-PO</a> <span class="venue-note">ACL’25 Findings</span><br><span data-i18n="cardGamma">Dynamic target margins for robust preference optimization.</span></li>
+              <!-- Space for another alignment project. -->
+            </ul>
+            <a class="card-cta" href="#publications" data-topic-link="alignment" data-i18n="explore">Papers →</a>
+          </article>
+          <article class="research-card">
+            <h3><span class="topic-number">3</span><span data-i18n="topic3">Reasoning &amp; Agents</span></h3>
+            <p data-i18n="topic3Desc">From long numerical sequences to autonomous language model agents.</p>
+            <ul>
+              <li><a href="https://aclanthology.org/2026.findings-acl.272/" target="_blank" rel="noopener noreferrer">SepSeq</a> <span class="venue-note">ACL’26 Findings</span><br><span data-i18n="cardSepseq">Simple separators improve long-sequence processing.</span></li>
+              <li><a href="https://arxiv.org/abs/2509.17567" target="_blank" rel="noopener noreferrer">LIMI</a> <span class="venue-note">Preprint’25</span><br><span data-i18n="cardLimi">Exploring how less data can support better agency.</span></li>
+            </ul>
+            <a class="card-cta" href="#publications" data-topic-link="all" data-i18n="explore">Papers →</a>
+          </article>
+        </div>
+        <p class="research-context" data-i18n="researchContext">I am a fourth-year Ph.D. candidate at USTC, jointly trained at <a href="https://www.sii.edu.cn/" target="_blank" rel="noopener noreferrer">Shanghai Innovation Institute</a>. My research focuses on <strong>LLM post-training</strong>, spanning agent trajectory and environment curation, on-policy distillation, and test-time enhancement. I have authored <strong>8 first- or co-first-author papers</strong> and conducted research internships at Tencent and Ant Group.</p>
+        <div class="contact-note"><p data-i18n="contactNote">I am happy to chat about research and collaborations. Reach me at <a href="mailto:sunjie2019@mail.ustc.edu.cn">sunjie2019@mail.ustc.edu.cn</a>.</p></div>
+      </section>
+      <section id="news" class="section">
+        <div class="section-heading"><h2 data-i18n="newsTitle">📰 News</h2></div>
+        <div class="news-list">
+          <div class="news-item"><time>Sep 2026</time><p data-i18n="news1">📝 <a href="https://arxiv.org/abs/2609.23697" target="_blank" rel="noopener noreferrer"><strong>Distill What You Trust</strong></a> introduces reliability-aware multi-teacher on-policy distillation.</p></div>
+          <div class="news-item"><time>2026</time><p data-i18n="news2">🎉 <a href="https://arxiv.org/abs/2605.07711" target="_blank" rel="noopener noreferrer"><strong>SimCT</strong></a> is accepted to <strong>NeurIPS 2026</strong>!</p></div>
+          <div class="news-item"><time>Jul 2026</time><p data-i18n="news3">💻 <a href="https://github.com/lds-ustc/EasyOPD" target="_blank" rel="noopener noreferrer"><strong>EasyOPD</strong></a>: a unified framework for on-policy distillation.</p></div>
+          <div class="news-item"><time>2026</time><p data-i18n="news4">🎉 <a href="https://aclanthology.org/2026.findings-acl.272/" target="_blank" rel="noopener noreferrer"><strong>SepSeq</strong></a> appears in <strong>Findings of ACL 2026</strong>.</p></div>
+        </div>
+      </section>
+      <section id="publications" class="section">
+        <div class="section-heading"><h2 data-i18n="papersTitle">📝 Publications</h2></div>
+        <p class="section-description" data-i18n="paperDescription">First- and co-first-author papers are listed first, followed by co-authored work. Click a topic to filter. <strong>My name</strong> is bold; * denotes equal contribution. See also <a href="https://scholar.google.com.hk/citations?user=tUrGVzUAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>.</p>
+        <div class="filters" role="group" aria-label="Filter publications by topic">
+          <button class="filter active" data-filter="all" aria-pressed="true" data-i18n="filterAll">All</button>
+          <button class="filter" data-filter="distillation" aria-pressed="false" data-i18n="filterDistillation">🔬 Distillation</button>
+          <button class="filter" data-filter="alignment" aria-pressed="false" data-i18n="filterAlignment">🎯 Alignment</button>
+          <button class="filter" data-filter="reasoning" aria-pressed="false" data-i18n="filterReasoning">🧠 Reasoning &amp; Applications</button>
+          <button class="filter" data-filter="agents" aria-pressed="false" data-i18n="filterAgents">🤖 Agents</button>
+          <button class="filter" data-filter="graphs" aria-pressed="false" data-i18n="filterGraphs">🔗 Graph Learning</button>
+        </div>
+        <p id="filter-status" class="sr-only" role="status" aria-live="polite"></p>
+        <div id="publication-list"></div>
+        <noscript><p>JavaScript is required for the publication filters. <a href="https://scholar.google.com.hk/citations?user=tUrGVzUAAAAJ&hl=en">View all publications on Google Scholar.</a></p></noscript>
+      </section>
+      <section id="education" class="section">
+        <div class="section-heading"><h2 data-i18n="educationTitle">📖 Education</h2></div>
+        <div class="timeline">
+          <article class="timeline-item"><div class="timeline-years">2023.09 — 2028.06 <small data-i18n="expected">(expected)</small></div><div><div class="entry-top"><h3><a href="https://en.ustc.edu.cn/" target="_blank" rel="noopener noreferrer" data-i18n="ustc">University of Science and Technology of China</a></h3></div><p class="entry-role" data-i18n="phdDegree">Ph.D. in Intelligent Science and Technology</p><p class="entry-detail" data-i18n="phdDetail">Joint training at <a href="https://www.sii.edu.cn/" target="_blank" rel="noopener noreferrer">Shanghai Innovation Institute</a> · Advisor: <a href="https://xiangwang1223.github.io/" target="_blank" rel="noopener noreferrer">Prof. Xiang Wang</a></p></div></article>
+          <article class="timeline-item"><div class="timeline-years">2019.09 — 2023.06</div><div><div class="entry-top"><h3><a href="https://en.ustc.edu.cn/" target="_blank" rel="noopener noreferrer" data-i18n="ustc">University of Science and Technology of China</a></h3></div><p class="entry-role" data-i18n="bengDegree">B.Eng. in Computer Science and Technology</p><p class="entry-detail" data-i18n="bengDetail"><a href="https://en.scgy.ustc.edu.cn/" target="_blank" rel="noopener noreferrer">School of the Gifted Young</a> · AI Talent Program · Advisor: <a href="https://xiangwang1223.github.io/" target="_blank" rel="noopener noreferrer">Prof. Xiang Wang</a></p></div></article>
+        </div>
+      </section>
+      <section id="experience" class="section">
+        <div class="section-heading"><h2 data-i18n="experienceTitle">💼 Experience</h2></div>
+        <div class="experience-list">
+          <article class="experience-item"><div class="timeline-years" data-i18n="tencentDate">Apr 2026 — Present</div><div><div class="entry-top"><h3><a href="https://www.tencent.com/en-us/" target="_blank" rel="noopener noreferrer">Tencent</a> <span class="company-detail" data-i18n="tencentDept">/ Foundation Model Department</span></h3></div><p class="entry-role" data-i18n="tencentRole">LLM Algorithm Intern · Project Up (Qingyun Program)</p><ul class="entry-bullets" data-i18n="tencentDetail"><li>On-policy distillation for large-to-small capability transfer and model merging: <a href="https://arxiv.org/abs/2605.07711" target="_blank" rel="noopener noreferrer">SimCT</a> recovers cross-tokenizer supervision; <a href="https://arxiv.org/abs/2609.23697" target="_blank" rel="noopener noreferrer">TrustMOPD</a> allocates label-free multi-teacher supervision.</li><li>Developed <a href="https://github.com/lds-ustc/EasyOPD" target="_blank" rel="noopener noreferrer">EasyOPD</a>, a modular verl-based framework supporting cross-tokenizer, self-, and step-wise distillation for in-house OPD research.</li></ul></div></article>
+          <article class="experience-item"><div class="timeline-years" data-i18n="antDate">Sep 2024 — Jul 2025</div><div><div class="entry-top"><h3><a href="https://www.antgroup.com/en" target="_blank" rel="noopener noreferrer" data-i18n="antCompany">Ant Group</a></h3></div><p class="entry-role" data-i18n="antRole">LLM Algorithm Intern · Post-training</p><ul class="entry-bullets" data-i18n="antDetail"><li>Developed <a href="https://aclanthology.org/2025.findings-acl.282/" target="_blank" rel="noopener noreferrer">γ-PO</a> with instance-adaptive target margins and a label-smoothing interpretation, adding little training overhead.</li><li>Studied training-free long numerical sequence processing in <a href="https://aclanthology.org/2026.findings-acl.272/" target="_blank" rel="noopener noreferrer">SepSeq</a> through attention analysis and separator insertion, improving accuracy and generation efficiency.</li></ul></div></article>
+          <article class="experience-item"><div class="timeline-years" data-i18n="lingjunDate">Jul 2023 — Sep 2023</div><div><div class="entry-top"><h3>Lingjun Invest</h3></div><p class="entry-role" data-i18n="lingjunRole">Quantitative Algorithm Intern</p><p class="entry-detail" data-i18n="lingjunDetail">High-frequency alpha factors, feature engineering, and factor evaluation.</p></div></article>
+          <article class="experience-item"><div class="timeline-years" data-i18n="xDate">Apr 2023 — Jul 2023</div><div><div class="entry-top"><h3>X Asset Management</h3></div><p class="entry-role" data-i18n="xRole">Quantitative Research Intern</p><p class="entry-detail" data-i18n="xDetail">Robust stock prediction under distribution shift and out-of-distribution generalization.</p></div></article>
+        </div>
+      </section>
+      <section id="honors" class="section">
+        <div class="section-heading"><h2 data-i18n="honorsTitle">🏆 Awards</h2></div>
+        <ul class="honors-list">
+          <li><time>2026</time><span data-i18n="honor1">Tencent Qingyun Talent Program</span></li>
+          <li><time>2023–2026</time><span data-i18n="honor2">USTC First-Prize Academic Scholarship</span></li>
+          <li><time>2024</time><span data-i18n="honor3">Kaggle Optiver — Trading at the Close · <strong>Silver Medal, Top 3%</strong></span></li>
+          <li><time>2024</time><span data-i18n="honor4">2nd USTC Quantitative Competition · <strong>Rank 2 / ~100</strong></span></li>
+          <li><time>2024</time><span data-i18n="honor5">CCF Player Top-Up Amount Prediction Competition · <strong>2nd Place</strong><small class="award-detail">Large-scale online role-playing game track</small></span></li>
+          <li><time>2023</time><span data-i18n="honor6">USTC Outstanding Graduate</span></li>
+          <li><time>2020, 2021</time><span data-i18n="honor7">USTC Outstanding Student Scholarship · <strong>Silver Award, Top 10%</strong></span></li>
+        </ul>
+      </section>
+      <footer><p>© <span id="year">2026</span> Jie Sun</p><a href="#about" data-i18n="backTop">Back to top ↑</a></footer>
+    </main>
+  </div>
+  <dialog id="figure-viewer" aria-label="Paper figure">
+    <button class="figure-close" aria-label="Close figure">×</button>
+    <img alt="">
+  </dialog>
+</body>
+</html>
