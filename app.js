@@ -15,7 +15,7 @@
   function renderPaper(p) {
     const links = Object.keys(resourceLabels.en).filter(key => p[key]).map(key => `<a href="${p[key]}" target="_blank" rel="noopener noreferrer">${resourceLabels[language][key]}</a>`).join('');
     const visual = p.image
-      ? `<button class="publication-visual" type="button" data-figure="${p.image}" data-figure-alt="${p.imageAlt}" aria-label="${language === 'zh' ? '放大论文图片' : 'Enlarge paper figure'}: ${p.title}"><img src="${p.image}" alt="${p.imageAlt}" loading="lazy" width="165" height="110"></button>`
+      ? `<button class="publication-visual" type="button" data-figure="${p.imageFull || p.image}" data-figure-alt="${p.imageAlt}" aria-label="${language === 'zh' ? '放大论文图片' : 'Enlarge paper figure'}: ${p.title}"><img src="${p.image}" alt="${p.imageAlt}" loading="lazy" decoding="async" width="${p.imageWidth || 165}" height="${p.imageHeight || 110}"></button>`
       : '<div class="publication-visual empty-figure" aria-hidden="true"><!-- Add an image to this paper in content.js when available. --></div>';
     return `<article class="publication" id="paper-${p.id}" data-topic="${p.topic}">${visual}<div class="publication-body"><span class="venue">${p.venue}</span> <h4 class="publication-title"><a href="${p.paper}" target="_blank" rel="noopener noreferrer">${p.title}</a></h4><p class="paper-summary">${language === 'zh' ? p.summaryZh : p.summary}</p><div class="paper-links">${links}</div><p class="authors">${p.authors}</p></div></article>`;
   }

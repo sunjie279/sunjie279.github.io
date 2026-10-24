@@ -10,7 +10,8 @@ A bilingual static academic homepage hosted on GitHub Pages. No build step, depe
 - `content.js`: publications, paper resources, and Chinese translations.
 - `styles.css`: layout and responsive styles.
 - `app.js`: topic filters, language switch, navigation, and paper figure viewer.
-- `assets/`: profile image and paper figures. Missing paper figures intentionally retain whitespace.
+- `assets/`: profile image and paper figures. Each publication can define `image` (preview), `imageFull` (click-to-enlarge version), `imageAlt`, and the preview's `imageWidth`/`imageHeight` in `content.js`.
+- `assets/papers/sources.json`: provenance for the added paper figures, including the source publication, figure number, page, and crop bounds. Figures preserve the original diagrams, labels, and legends; only surrounding page text and whitespace are removed. EI-CDA uses the author's archived manuscript. ARGO retains its empty slot pending access to its source PDF.
 
 Publish by committing changes to `main`. GitHub Pages serves the repository root; `.nojekyll` preserves these static files without Jekyll processing.
 

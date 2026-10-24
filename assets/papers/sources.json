@@ -1,0 +1,198 @@
+[
+  {
+    "paperId": "easyopd",
+    "paper": "https://arxiv.org/abs/2607.11012",
+    "figure": 1,
+    "page": 2,
+    "description": "EasyOPD architecture: user configuration, method modules, and verl execution",
+    "sourceVersion": "linked paper PDF",
+    "crop": [
+      70,
+      70,
+      525,
+      298
+    ]
+  },
+  {
+    "paperId": "davinci",
+    "paper": "https://arxiv.org/abs/2603.13023",
+    "figure": 3,
+    "page": 4,
+    "description": "OpenSWE framework for repository exploration, Docker construction, and environment evaluation",
+    "sourceVersion": "linked paper PDF",
+    "crop": [
+      72,
+      61,
+      524,
+      250
+    ]
+  },
+  {
+    "paperId": "lampval",
+    "paper": "https://aclanthology.org/2025.findings-emnlp.31/",
+    "figure": 2,
+    "page": 4,
+    "description": "LaMP-Val framework: valuation data, instruction tuning, and auction evaluation",
+    "sourceVersion": "linked paper PDF",
+    "crop": [
+      70,
+      69,
+      526,
+      199
+    ]
+  },
+  {
+    "paperId": "limi",
+    "paper": "https://arxiv.org/abs/2509.17567",
+    "figure": 1,
+    "page": 1,
+    "description": "LIMI performance and data efficiency compared with baseline agents",
+    "sourceVersion": "linked paper PDF",
+    "crop": [
+      100,
+      521,
+      496,
+      670
+    ]
+  },
+  {
+    "paperId": "dfopd",
+    "paper": "https://arxiv.org/abs/2609.14193",
+    "figure": 1,
+    "page": 2,
+    "description": "Three OPD settings: external questions, teacher-generated questions, and no explicit questions",
+    "sourceVersion": "linked paper PDF",
+    "crop": [
+      108,
+      78,
+      505,
+      216
+    ]
+  },
+  {
+    "paperId": "idaopd",
+    "paper": "https://arxiv.org/abs/2608.29846",
+    "figure": 1,
+    "page": 3,
+    "description": "How sampled-token updates affect entropy, with advantage and influence comparisons",
+    "sourceVersion": "linked paper PDF",
+    "crop": [
+      54,
+      52,
+      293,
+      311
+    ]
+  },
+  {
+    "paperId": "guidedopd",
+    "paper": "https://arxiv.org/abs/2606.15912",
+    "figure": 2,
+    "page": 4,
+    "description": "Guided-OPD curriculum gradually transitions multi-turn rollouts from teacher to student",
+    "sourceVersion": "linked paper PDF",
+    "crop": [
+      70,
+      67,
+      525,
+      212
+    ]
+  },
+  {
+    "paperId": "sod",
+    "paper": "https://arxiv.org/abs/2605.07725",
+    "figure": 2,
+    "page": 5,
+    "description": "SOD overview: trajectory errors, student-teacher divergence, and step-level distillation weights",
+    "sourceVersion": "linked paper PDF",
+    "crop": [
+      108,
+      72,
+      505,
+      246
+    ]
+  },
+  {
+    "paperId": "agencybench",
+    "paper": "https://aclanthology.org/2026.acl-long.337/",
+    "figure": 1,
+    "page": 1,
+    "description": "AgencyBench task distribution across six agentic capabilities and their scenarios",
+    "sourceVersion": "linked paper PDF",
+    "crop": [
+      305,
+      215,
+      526,
+      442
+    ]
+  },
+  {
+    "paperId": "longcli",
+    "paper": "https://aclanthology.org/2026.findings-acl.1497/",
+    "figure": 3,
+    "page": 5,
+    "description": "LongCLI-Bench construction pipeline with task collection, environment building, and dual-set verification",
+    "sourceVersion": "linked paper PDF",
+    "crop": [
+      70,
+      67,
+      525,
+      221
+    ]
+  },
+  {
+    "paperId": "davincidev",
+    "paper": "https://arxiv.org/abs/2601.18418",
+    "figure": 1,
+    "page": 1,
+    "description": "daVinci-Dev training recipe combining contextual and environment trajectories, with SWE-Bench results",
+    "sourceVersion": "linked paper PDF",
+    "crop": [
+      103,
+      538,
+      498,
+      684
+    ]
+  },
+  {
+    "paperId": "innovatorbench",
+    "paper": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/3d13d910b48ac2e672a32cfdf98be1bf-Abstract-Conference.html",
+    "figure": 1,
+    "page": 1,
+    "description": "InnovatorBench and ResearchGym overview of research domains, infrastructure, and available agent actions",
+    "sourceVersion": "linked paper PDF",
+    "crop": [
+      145,
+      451,
+      460,
+      648
+    ]
+  },
+  {
+    "paperId": "uil",
+    "paper": "https://doi.org/10.1145/3690624.3709203",
+    "figure": 2,
+    "page": 5,
+    "description": "UIL framework combining feature separation with semantic and structural invariance",
+    "sourceVersion": "linked paper PDF",
+    "crop": [
+      54,
+      79,
+      558,
+      240
+    ]
+  },
+  {
+    "paperId": "eicda",
+    "paper": "https://doi.org/10.1145/3706062",
+    "figure": 1,
+    "page": 5,
+    "description": "EI-CDA framework: feature separation, cross-data augmentation, and equivariant and invariant predictions",
+    "sourceVersion": "author manuscript (2023)",
+    "crop": [
+      108,
+      72,
+      504,
+      183
+    ]
+  }
+]

@@ -1,4 +1,4 @@
-// Edit publications here. Add image and imageAlt to fill a reserved figure slot.
+// Publication figures use a small preview and an optional full-size image for the viewer.
 window.PAPERS = [
   {
     "id": "trustmopd",
@@ -40,7 +40,12 @@ window.PAPERS = [
     "summaryZh": "统一支持跨分词器蒸馏、自蒸馏和逐步蒸馏的模块化 on-policy distillation 框架。",
     "paper": "https://arxiv.org/abs/2607.11012",
     "code": "https://github.com/lds-ustc/EasyOPD",
-    "group": "first"
+    "group": "first",
+    "image": "assets/papers/easyopd-thumb.webp",
+    "imageFull": "assets/papers/easyopd.webp",
+    "imageAlt": "EasyOPD architecture: user configuration, method modules, and verl execution",
+    "imageWidth": 540,
+    "imageHeight": 276
   },
   {
     "id": "sepseq",
@@ -68,7 +73,12 @@ window.PAPERS = [
     "paper": "https://arxiv.org/abs/2603.13023",
     "group": "first",
     "code": "https://github.com/GAIR-NLP/OpenSWE",
-    "dataset": "https://huggingface.co/datasets/GAIR/OpenSWE"
+    "dataset": "https://huggingface.co/datasets/GAIR/OpenSWE",
+    "image": "assets/papers/davinci-thumb.webp",
+    "imageFull": "assets/papers/davinci.webp",
+    "imageAlt": "OpenSWE framework for repository exploration, Docker construction, and environment evaluation",
+    "imageWidth": 540,
+    "imageHeight": 235
   },
   {
     "id": "lampval",
@@ -80,7 +90,12 @@ window.PAPERS = [
     "summaryZh": "利用用户的语义偏好，建模拍卖场景中的个性化估值。",
     "paper": "https://aclanthology.org/2025.findings-emnlp.31/",
     "code": "https://github.com/sunjie279/LaMP-Val",
-    "group": "first"
+    "group": "first",
+    "image": "assets/papers/lampval-thumb.webp",
+    "imageFull": "assets/papers/lampval.webp",
+    "imageAlt": "LaMP-Val framework: valuation data, instruction tuning, and auction evaluation",
+    "imageWidth": 540,
+    "imageHeight": 154
   },
   {
     "id": "gammapo",
@@ -109,7 +124,12 @@ window.PAPERS = [
     "group": "first",
     "code": "https://github.com/GAIR-NLP/LIMI",
     "dataset": "https://huggingface.co/datasets/GAIR/LIMI",
-    "model": "https://huggingface.co/GAIR/LIMI"
+    "model": "https://huggingface.co/GAIR/LIMI",
+    "image": "assets/papers/limi-thumb.webp",
+    "imageFull": "assets/papers/limi.webp",
+    "imageAlt": "LIMI performance and data efficiency compared with baseline agents",
+    "imageWidth": 540,
+    "imageHeight": 196
   },
   {
     "id": "dfopd",
@@ -122,7 +142,12 @@ window.PAPERS = [
     "summaryZh": "研究自生成问题如何替代 on-policy distillation 所需的外部训练数据。",
     "paper": "https://arxiv.org/abs/2609.14193",
     "preprint": true,
-    "code": "https://github.com/Ryuki661/DF-OPD"
+    "code": "https://github.com/Ryuki661/DF-OPD",
+    "image": "assets/papers/dfopd-thumb.webp",
+    "imageFull": "assets/papers/dfopd.webp",
+    "imageAlt": "Three OPD settings: external questions, teacher-generated questions, and no explicit questions",
+    "imageWidth": 540,
+    "imageHeight": 176
   },
   {
     "id": "idaopd",
@@ -134,7 +159,12 @@ window.PAPERS = [
     "summary": "Preserving teacher diversity through influence-aware updates in sampled-token distillation.",
     "summaryZh": "利用影响感知的更新，保留采样 token 蒸馏中的教师输出多样性。",
     "paper": "https://arxiv.org/abs/2608.29846",
-    "preprint": true
+    "preprint": true,
+    "image": "assets/papers/idaopd-thumb.webp",
+    "imageFull": "assets/papers/idaopd.webp",
+    "imageAlt": "How sampled-token updates affect entropy, with advantage and influence comparisons",
+    "imageWidth": 414,
+    "imageHeight": 440
   },
   {
     "id": "guidedopd",
@@ -147,7 +177,12 @@ window.PAPERS = [
     "summaryZh": "通过逐步减少教师引导，提升多轮智能体蒸馏的稳定性。",
     "paper": "https://arxiv.org/abs/2606.15912",
     "code": "https://github.com/Zzzz-166/Guided-OPD",
-    "preprint": true
+    "preprint": true,
+    "image": "assets/papers/guidedopd-thumb.webp",
+    "imageFull": "assets/papers/guidedopd.webp",
+    "imageAlt": "Guided-OPD curriculum gradually transitions multi-turn rollouts from teacher to student",
+    "imageWidth": 540,
+    "imageHeight": 168
   },
   {
     "id": "sod",
@@ -160,7 +195,12 @@ window.PAPERS = [
     "summaryZh": "自适应调整步骤级监督，将工具增强推理能力迁移到小模型。",
     "paper": "https://arxiv.org/abs/2605.07725",
     "preprint": true,
-    "code": "https://github.com/YoungZ365/SOD"
+    "code": "https://github.com/YoungZ365/SOD",
+    "image": "assets/papers/sod-thumb.webp",
+    "imageFull": "assets/papers/sod.webp",
+    "imageAlt": "SOD overview: trajectory errors, student-teacher divergence, and step-level distillation weights",
+    "imageWidth": 540,
+    "imageHeight": 229
   },
   {
     "id": "agencybench",
@@ -174,7 +214,12 @@ window.PAPERS = [
     "paper": "https://aclanthology.org/2026.acl-long.337/",
     "code": "https://github.com/GAIR-NLP/AgencyBench",
     "project": "https://agencybench.opensii.ai/",
-    "dataset": "https://huggingface.co/datasets/GAIR/AgencyBench"
+    "dataset": "https://huggingface.co/datasets/GAIR/AgencyBench",
+    "image": "assets/papers/agencybench-thumb.webp",
+    "imageFull": "assets/papers/agencybench.webp",
+    "imageAlt": "AgencyBench task distribution across six agentic capabilities and their scenarios",
+    "imageWidth": 440,
+    "imageHeight": 440
   },
   {
     "id": "longcli",
@@ -186,7 +231,12 @@ window.PAPERS = [
     "summary": "Measuring long-horizon programming and step-level progress in command-line workflows.",
     "summaryZh": "评估命令行工作流中的长程编程能力与步骤级任务进展。",
     "paper": "https://aclanthology.org/2026.findings-acl.1497/",
-    "code": "https://github.com/finyorko/longcli-bench"
+    "code": "https://github.com/finyorko/longcli-bench",
+    "image": "assets/papers/longcli-thumb.webp",
+    "imageFull": "assets/papers/longcli.webp",
+    "imageAlt": "LongCLI-Bench construction pipeline with task collection, environment building, and dual-set verification",
+    "imageWidth": 540,
+    "imageHeight": 179
   },
   {
     "id": "davincidev",
@@ -199,7 +249,12 @@ window.PAPERS = [
     "summaryZh": "利用真实智能体轨迹进行中期训练，构建软件工程智能体。",
     "paper": "https://arxiv.org/abs/2601.18418",
     "code": "https://github.com/GAIR-NLP/daVinci-Dev",
-    "dataset": "https://huggingface.co/datasets/GAIR/daVinci-Dev"
+    "dataset": "https://huggingface.co/datasets/GAIR/daVinci-Dev",
+    "image": "assets/papers/davincidev-thumb.webp",
+    "imageFull": "assets/papers/davincidev.webp",
+    "imageAlt": "daVinci-Dev training recipe combining contextual and environment trajectories, with SWE-Bench results",
+    "imageWidth": 540,
+    "imageHeight": 208
   },
   {
     "id": "innovatorbench",
@@ -213,7 +268,12 @@ window.PAPERS = [
     "paper": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/3d13d910b48ac2e672a32cfdf98be1bf-Abstract-Conference.html",
     "code": "https://github.com/GAIR-NLP/InnovatorBench",
     "project": "https://ai-innovator.opensii.ai/",
-    "dataset": "https://huggingface.co/datasets/GAIR/InnovatorBench"
+    "dataset": "https://huggingface.co/datasets/GAIR/InnovatorBench",
+    "image": "assets/papers/innovatorbench-thumb.webp",
+    "imageFull": "assets/papers/innovatorbench.webp",
+    "imageAlt": "InnovatorBench and ResearchGym overview of research domains, infrastructure, and available agent actions",
+    "imageWidth": 540,
+    "imageHeight": 339
   },
   {
     "id": "argo",
@@ -237,7 +297,12 @@ window.PAPERS = [
     "summary": "Unifying structural and semantic invariance for graph classification under distribution shift.",
     "summaryZh": "统一结构与语义不变性，改善分布偏移下的图分类。",
     "paper": "https://doi.org/10.1145/3690624.3709203",
-    "code": "https://github.com/yongduosui/UIL"
+    "code": "https://github.com/yongduosui/UIL",
+    "image": "assets/papers/uil-thumb.webp",
+    "imageFull": "assets/papers/uil.webp",
+    "imageAlt": "UIL framework combining feature separation with semantic and structural invariance",
+    "imageWidth": 540,
+    "imageHeight": 168
   },
   {
     "id": "eicda",
@@ -248,7 +313,12 @@ window.PAPERS = [
     "authors": "Y. Sui, S. Wang, <strong>Jie Sun</strong>, Z. Liu, Q. Cui, L. Li, J. Zhou, X. Wang, X. He",
     "summary": "Exploring equivariance and invariance as principles for graph data augmentation.",
     "summaryZh": "从等变性与不变性的视角研究图数据增强。",
-    "paper": "https://doi.org/10.1145/3706062"
+    "paper": "https://doi.org/10.1145/3706062",
+    "image": "assets/papers/eicda-thumb.webp",
+    "imageFull": "assets/papers/eicda.webp",
+    "imageAlt": "EI-CDA framework: feature separation, cross-data augmentation, and equivariant and invariant predictions",
+    "imageWidth": 540,
+    "imageHeight": 152
   }
 ];
 
