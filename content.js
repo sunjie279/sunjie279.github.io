@@ -276,22 +276,21 @@ window.PAPERS = [
     "imageHeight": 339
   },
   {
-    "id": "argo",
+    "id": "apollo",
     "group": "coauthor",
-    "venue": "OpenReview · Preprint",
+    "venue": "Preprint · 2025",
     "topic": "agents",
-    "title": "ARGO: Asynchronous Rollout with Human Guidance for Research Agent Optimization",
-    "authors": "D. Fu, Y. Wu, X. Cai, L. Ye, S. Xia, Z. Huang, W. Si, T. Xu, <strong>Jie Sun</strong>, K. Li, M. Jiang, J. Wang, Q. Hua, P. Lu, X. Hu, Y. Xiao, P. Liu",
-    "summary": "Combining asynchronous rollouts and human guidance for research agent optimization.",
-    "summaryZh": "结合异步 rollout 与人类指导，优化研究智能体。",
-    "paper": "https://openreview.net/forum?id=JswgId3OjI",
+    "title": "Interaction as Intelligence Part II: Asynchronous Human-Agent Rollout for Long-Horizon Task Training",
+    "authors": "D. Fu*, Y. Wu*, X. Cai, L. Ye, S. Xia, Z. Huang, W. Si, T. Xu, <strong>Jie Sun</strong>, K. Li, M. Jiang, J. Wang, Q. Hua, P. Lu, Y. Xiao, P. Liu",
+    "summary": "Apollo combines asynchronous human guidance with action-level filtering for long-horizon agent training.",
+    "summaryZh": "Apollo 结合异步人类指导与动作级筛选，支持长程任务中的智能体训练。",
+    "paper": "https://arxiv.org/abs/2510.27630",
     "preprint": true,
-    "image": "assets/papers/argo-thumb.webp",
-    "imageFull": "assets/papers/argo.png",
-    "imageAlt": "ARGO overview comparing behavior cloning, rejection fine-tuning, and asynchronous human-guided rollouts",
+    "image": "assets/papers/apollo-thumb.webp",
+    "imageFull": "assets/papers/apollo.webp",
+    "imageAlt": "Apollo overview comparing behavior cloning, rejection fine-tuning, and asynchronous human-guided rollouts",
     "imageWidth": 540,
-    "imageHeight": 307,
-    "arxiv": "https://arxiv.org/abs/2510.27630"
+    "imageHeight": 306
   },
   {
     "id": "uil",

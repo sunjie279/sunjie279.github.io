@@ -196,12 +196,17 @@
     ]
   },
   {
-    "paperId": "argo",
-    "paper": "https://openreview.net/forum?id=JswgId3OjI",
+    "paperId": "apollo",
+    "paper": "https://arxiv.org/abs/2510.27630",
     "figure": 1,
-    "description": "ARGO overview comparing behavior cloning, rejection fine-tuning, and asynchronous human-guided rollouts",
-    "sourceVersion": "author-provided original figure.png (ARGO naming)",
-    "relatedPreprint": "https://arxiv.org/abs/2510.27630",
-    "note": "The related arXiv version uses the Apollo name. The author-provided figure preserves the ARGO label used by this publication entry."
+    "page": 1,
+    "description": "Apollo overview comparing behavior cloning, rejection fine-tuning, and asynchronous human-guided rollouts",
+    "sourceVersion": "arXiv:2510.27630v2",
+    "crop": [
+      125,
+      490,
+      477,
+      689
+    ]
   }
 ]
