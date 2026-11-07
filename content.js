@@ -349,8 +349,6 @@ window.TRANSLATIONS = {
   "explore": "论文 →",
   "contactNote": "欢迎交流研究与合作。联系邮箱：<a href=\"mailto:sunjie2019@mail.ustc.edu.cn\">sunjie2019@mail.ustc.edu.cn</a>。",
   "newsTitle": "📰 近期动态",
-  "newsReadMore": "更多动态",
-  "newsShowLess": "收起",
   "news1": "📝 <a href=\"https://arxiv.org/abs/2609.23697\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Distill What You Trust</strong></a>：基于可靠性的多教师 on-policy distillation。",
   "news2": "🎉 <a href=\"https://arxiv.org/abs/2605.07711\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>SimCT</strong></a> 被 <strong>NeurIPS 2026</strong> 录用！",
   "newsGuidedopd": "🎉 <a href=\"https://aclanthology.org/2026.emnlp-main.1424/\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Guided-OPD</strong></a> 被 <strong>EMNLP 2026</strong> 录用！",

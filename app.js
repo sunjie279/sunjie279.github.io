@@ -2,6 +2,20 @@
   'use strict';
   const originals = new Map(Array.from(document.querySelectorAll('[data-i18n]'), el => [el, el.innerHTML]));
   const list = document.getElementById('publication-list');
+  const newsList = document.querySelector('.news-list');
+  const newsRows = Array.from(newsList.children);
+  function fitNewsWindow() {
+    const style = getComputedStyle(newsList);
+    const rowsHeight = newsRows.slice(0, 6).reduce((sum, row) => sum + row.getBoundingClientRect().height, 0);
+    const frameHeight = ['paddingTop', 'paddingBottom', 'borderTopWidth', 'borderBottomWidth']
+      .reduce((sum, key) => sum + parseFloat(style[key]), 0);
+    const height = `${rowsHeight + frameHeight}px`;
+    if (newsList.style.getPropertyValue('--news-window-height') !== height) {
+      newsList.style.setProperty('--news-window-height', height);
+    }
+  }
+  const newsResizeObserver = new ResizeObserver(fitNewsWindow);
+  newsRows.slice(0, 6).forEach(row => newsResizeObserver.observe(row));
   let language = 'en';
   let activeFilter = 'all';
   const groups = [
@@ -53,6 +67,7 @@
     toggle.setAttribute('aria-label', lang === 'zh' ? 'Switch to English' : '切换到中文');
     document.title = lang === 'zh' ? 'Jie Sun · 学术主页' : 'Jie Sun · Academic Homepage';
     renderPapers();
+    fitNewsWindow();
     try { localStorage.setItem('jie-homepage-language', lang); } catch (_) { /* Storage may be disabled. */ }
   }
   document.getElementById('language-toggle').addEventListener('click', () => setLanguage(language === 'en' ? 'zh' : 'en'));

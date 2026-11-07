@@ -7,7 +7,7 @@ A bilingual static academic homepage hosted on GitHub Pages. No build step, depe
 ## Updating the page
 
 - `index.html`: English biography, education, internships, awards, and links.
-- News entries use `datetime="YYYY-MM"` and stay in descending month order. Keep the latest four directly inside `.news-list` and older items inside `.news-older`; the native Read more disclosure works with or without JavaScript.
+- News entries use `datetime="YYYY-MM"` and stay in descending month order as direct children of `.news-list`. The scrollable window fits the first six rows and recalculates when translation or responsive wrapping changes their height. All older entries remain available by scrolling.
 - `content.js`: publications, paper resources, and Chinese translations.
 - `styles.css`: layout and responsive styles.
 - `app.js`: topic filters, language switch, navigation, and paper figure viewer.
