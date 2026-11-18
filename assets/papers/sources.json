@@ -56,6 +56,21 @@
     ]
   },
   {
+    "paperId": "recal",
+    "paper": "https://arxiv.org/abs/2610.11332",
+    "source": "https://arxiv.org/pdf/2610.11332v1",
+    "figure": 1,
+    "page": 2,
+    "description": "ReCal and standard pruning workflows, with analyses of limited baseline recovery and length truncation",
+    "sourceVersion": "arXiv:2610.11332v1",
+    "crop": [
+      105,
+      78,
+      506,
+      339
+    ]
+  },
+  {
     "paperId": "dfopd",
     "paper": "https://arxiv.org/abs/2609.14193",
     "figure": 1,

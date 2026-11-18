@@ -12,10 +12,10 @@ A bilingual static academic homepage hosted on GitHub Pages. No build step, depe
 - `styles.css`: layout and responsive styles.
 - `app.js`: topic filters, language switch, navigation, and paper figure viewer.
 - `assets/`: profile image and paper figures. Each publication can define `image` (preview), `imageFull` (click-to-enlarge version), `imageAlt`, and the preview's `imageWidth`/`imageHeight` in `content.js`.
-- `assets/papers/sources.json`: provenance for the added paper figures, including the source publication, figure number, page, and crop bounds. Figures preserve the original diagrams, labels, and legends; only surrounding page text and whitespace are removed. EI-CDA uses the author's archived manuscript. Interaction as Intelligence Part II uses Figure 1 from its arXiv v2 PDF (Apollo). All 19 publications now have figures.
+- `assets/papers/sources.json`: provenance for the added paper figures, including the source publication, figure number, page, and crop bounds. Figures preserve the original diagrams, labels, and legends; only surrounding page text and whitespace are removed. EI-CDA uses the author's archived manuscript. Interaction as Intelligence Part II uses Figure 1 from its arXiv v2 PDF (Apollo). ReCal uses Figure 1 from its arXiv v1 PDF. All 20 publications now have figures.
 
 Publish by committing changes to `main`. GitHub Pages serves the repository root; `.nojekyll` preserves these static files without Jekyll processing.
 
 To preview locally, run `python3 -m http.server 8765` and open http://localhost:8765.
 
-The previous homepage remains available in the Git history before this replacement. The current content follows the October 2026 resume and verified primary publication sources. The full resume and private phone number are not included.
+The previous homepage remains available in the Git history before this replacement. Awards and co-authored publications follow the November 2026 Chinese and English resumes, with verified primary publication sources and the requested Apollo replacement for ARGO retained. The full resume and private phone number are not included.
