@@ -357,7 +357,7 @@ window.TRANSLATIONS = {
   "location": "中国 · 北京",
   "rednote": "小红书",
   "bio": "博士候选人 @ <a href=\"https://en.ustc.edu.cn/\" target=\"_blank\" rel=\"noopener noreferrer\">中国科学技术大学</a> · 导师：<strong><a href=\"https://xiangwang1223.github.io/\" target=\"_blank\" rel=\"noopener noreferrer\">Prof. Xiang Wang</a></strong> <span class=\"advisor-scholar\">[<a href=\"https://scholar.google.com/citations?user=HdhaQB0AAAAJ\" target=\"_blank\" rel=\"noopener noreferrer\">Google Scholar</a>]</span>",
-  "contactNote": "欢迎交流研究与合作。联系邮箱：<a href=\"mailto:sunjie2019@mail.ustc.edu.cn\">sunjie2019@mail.ustc.edu.cn</a>。",
+  "contactNote": "欢迎交流研究与合作，也欢迎约一次<strong>线下 coffee chat</strong>！可以通过 <a href=\"mailto:sunjie2019@mail.ustc.edu.cn\">sunjie2019@mail.ustc.edu.cn</a> 联系我。",
   "newsTitle": "📰 近期动态",
   "news1": "📝 <a href=\"https://arxiv.org/abs/2609.23697\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Distill What You Trust</strong></a>：基于可靠性的多教师 on-policy distillation。",
   "news2": "🎉 <a href=\"https://arxiv.org/abs/2605.07711\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>SimCT</strong></a> 被 <strong>NeurIPS 2026</strong> 录用！",
@@ -405,7 +405,7 @@ window.TRANSLATIONS = {
   "honorPearlRiver": "珠三角地区物理竞赛 · <strong>一等奖</strong>",
   "backTop": "返回顶部 ↑",
   "aboutHeading": "个人简介",
-  "researchContext": "Hi! 我目前是<a href=\"https://en.ustc.edu.cn/\" target=\"_blank\" rel=\"noopener noreferrer\">中国科学技术大学</a>四年级博士研究生，在<a href=\"https://www.sii.edu.cn/\" target=\"_blank\" rel=\"noopener noreferrer\">上海创智学院</a>联合培养。研究聚焦于<strong>大语言模型后训练</strong>，涵盖智能体轨迹与环境构建、on-policy distillation（包括模型合版）以及测试时增强。我也对预训练方案和评测基准感兴趣。已发表或发布 <strong>8 篇第一作者论文</strong>，并在腾讯与蚂蚁集团开展研究实习。",
+  "researchContext": "Hi! 我是 <strong>Jie Sun</strong>，目前是<a href=\"https://en.ustc.edu.cn/\" target=\"_blank\" rel=\"noopener noreferrer\">中国科学技术大学</a>四年级博士研究生，导师为<a href=\"https://xiangwang1223.github.io/\" target=\"_blank\" rel=\"noopener noreferrer\">王翔教授</a>，在<a href=\"https://www.sii.edu.cn/\" target=\"_blank\" rel=\"noopener noreferrer\">上海创智学院</a>联合培养。研究聚焦于<strong>大语言模型后训练</strong>，涵盖智能体轨迹与环境构建，以及 <strong>on-policy distillation（包括模型合版）</strong>。我也对预训练方案和评测基准感兴趣。已发表或发布 <strong>8 篇第一作者论文</strong>，并在腾讯与蚂蚁集团开展研究实习。",
   "filterGraphs": "🔗 图学习",
   "honor7": "中国科学技术大学优秀学生奖学金 · <strong>银奖，前 10%</strong>"
 };
