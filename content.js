@@ -405,7 +405,7 @@ window.TRANSLATIONS = {
   "honorPearlRiver": "珠三角地区物理竞赛 · <strong>一等奖</strong>",
   "backTop": "返回顶部 ↑",
   "aboutHeading": "个人简介",
-  "researchContext": "Hi! 我是 <strong>Jie Sun</strong>，目前是<a href=\"https://en.ustc.edu.cn/\" target=\"_blank\" rel=\"noopener noreferrer\">中国科学技术大学</a>四年级博士研究生，导师为<a href=\"https://xiangwang1223.github.io/\" target=\"_blank\" rel=\"noopener noreferrer\">王翔教授</a>，在<a href=\"https://www.sii.edu.cn/\" target=\"_blank\" rel=\"noopener noreferrer\">上海创智学院</a>联合培养。研究聚焦于<strong>大语言模型后训练</strong>，涵盖智能体轨迹与环境构建，以及 <strong>on-policy distillation（包括模型合版）</strong>。我也对预训练方案和评测基准感兴趣。已发表或发布 <strong>8 篇第一作者论文</strong>，并在腾讯与蚂蚁集团开展研究实习。",
+  "researchContext": "Hi! 我是 <strong>Jie Sun</strong>，目前是<a href=\"https://en.ustc.edu.cn/\" target=\"_blank\" rel=\"noopener noreferrer\">中国科学技术大学</a>四年级博士研究生，导师为<a href=\"https://xiangwang1223.github.io/\" target=\"_blank\" rel=\"noopener noreferrer\">王翔教授</a>，在<a href=\"https://www.sii.edu.cn/\" target=\"_blank\" rel=\"noopener noreferrer\">上海创智学院</a>联合培养。研究聚焦于<strong>大语言模型后训练</strong>，涵盖智能体轨迹与环境构建，以及 <strong>on-policy distillation（包括模型合版）</strong>。我也对 auto-research / AI4AI 和评测基准感兴趣。已发表或发布 <strong>8 篇第一作者论文</strong>，并在腾讯与蚂蚁集团开展研究实习。",
   "filterGraphs": "🔗 图学习",
   "honor7": "中国科学技术大学优秀学生奖学金 · <strong>银奖，前 10%</strong>"
 };
